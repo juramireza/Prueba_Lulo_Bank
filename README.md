@@ -5,7 +5,7 @@ La solución fue desarrollada en mayor parte en Databricks y otra parte en Googl
 
 ## Cosas solucionadas en Databricks en la nube de Azure 
 
-Nota: El proyecto completo de Databricks, se encuentra en la carpeta src, en la subcarpeta "7.Proyecto_Completo_Databricks"
+Nota: El proyecto completo de Databricks, se encuentra en la carpeta src, en la subcarpeta "7.Proyecto_Completo_Databricks".
 
 Se intento simular un escenario real, de un proyecto de inteligencia de negocios que va desde la extracción de los datos hasta  y carga de datos, en el que se definio un arquitectura de data lake con tres capas, primero se hizo la instalación de los puntos de montaje con le notebook "mount_adls_storage" que se encuentra en la carpeta src, para poder conectar Databricks con un data lake de segunda generación, entonces se montaron tres puntos de montaje referentes cada container, es decir, a cada capa y estas se nombraron raw, processed y presentation. En la carpeta denominada "Simulacion_Data_Lake", se encuentran todos los archivos que se fueron escribiendo en las distintas capas a medida que se fue haciendo el procesamiento. 
 
